@@ -9,7 +9,7 @@ Relaunch "locker.bat", it will ask you for lock the folder type "y" for lock or 
 the folder "Private" is gone from the desktop so it is locked
 
 # To unlock
-launch "locker.bat" it will ask a password, type "1234" 
+launch "locker.bat" it will ask you for a password, type "1234" 
 
 "1234" is the default password 
 
