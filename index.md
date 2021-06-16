@@ -1,37 +1,22 @@
-## Welcome to GitHub Pages
+# Windows-folder-locker
+Place "locker.bat" on you desktop 
 
-You can use the [editor on GitHub](https://github.com/Utilisateur01gunner/windows-folder-locker/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+# To lock
+First launch "locker.bat". It will create a folder named "Private", place your files in it.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+Relaunch "locker.bat", it will ask you for lock the folder type "y" for lock or "n" for abort
 
-### Markdown
+the folder "Private" is gone from the desktop so it is locked
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+# To unlock
+launch "locker.bat" it will ask you for a password, type "1234" 
 
-```markdown
-Syntax highlighted code block
+"1234" is the default password 
 
-# Header 1
-## Header 2
-### Header 3
+# Changing the password 
+open "locker.bat" with notepad and a the line 23 colomn 17 replace 1234 by you password
 
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/Utilisateur01gunner/windows-folder-locker/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+# To make an exe
+To compile it to an exe you can use bat to exe but I dont know if it will work 
+# Info 
+I actually work on a linux/macOS version
