@@ -1,5 +1,5 @@
 # Windows-folder-locker
-Place "locker.bat" on you desktop 
+Place "locker.bat" on your desktop 
 
 # To lock
 First launch "locker.bat". It will create a folder named "Private", place your files in it.
